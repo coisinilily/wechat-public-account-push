@@ -55,7 +55,8 @@ const TEMPLATE_CONFIG = [
   {
     id: '0003',
     title: '亲爱的, 早上好',
-    {{date.DATA}}
+    desc: `
+      **{{date.DATA}}**
 
     今天是我们在一起的第{{love_day.DATA}}天，爱你❤️
 
@@ -68,6 +69,7 @@ const TEMPLATE_CONFIG = [
     预防感冒提醒：{{ganmao.DATA}}
     下一休息日：{{holidaytts.DATA}}
     下一个心动日：{{birthday_message.DATA}}
+    `
   }
 ]
 
