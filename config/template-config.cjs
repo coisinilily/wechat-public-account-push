@@ -55,7 +55,7 @@ const TEMPLATE_CONFIG = [
   {
     id: '0003',
     title: '亲爱的, 早上好',
-    🗓️{{date.DATA}}
+    {{date.DATA}}
 
     今天是我们在一起的第{{love_day.DATA}}天，爱你❤️
 
