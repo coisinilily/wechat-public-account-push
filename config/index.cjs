@@ -14,16 +14,16 @@ const USER_CONFIG = {
   APP_SECRET: '',
 
   PROVINCE: '广东',
-  CITY: '惠州',
+  CITY: '花都区',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '宝宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU25632TaiAuguloF0KJeg1g4i4fyDE26nPUaYI7',
+      id: 'PDU25636TAF1aeFfAPRMGVZDMW8rJ2JjAo5wc7TFw',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0001',
+      useTemplateId: '0003',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
@@ -47,6 +47,20 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
+    ,
+    {
+      name: '老婆3',
+      id: 'PDU25632TaiAuguloF0KJeg1g4i4fyDE26nPUaYI7',
+      useTemplateId: '0003',
+      province: '',
+      city: '',
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [],
+      customizedDateList: [],
+      courseSchedule: null
+    }
   ],
 
 
