@@ -31,6 +31,9 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '宝宝', year: '1998', date: '10-03',
         },
+        {
+          type: '*生日', name: '小梅', year: '1998', date: '07-21',
+        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         // {
         //   type: '生日', name: '李四', year: '1996', date: '09-31',
@@ -44,7 +47,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2023-03-10' },
         // 结婚纪念日
-        // { keyword: 'marry_day', date: '2023-03-10' },
+        // { keyword: 'marry_day', date: '2023-03-11' },
       ],
     },
 
@@ -62,6 +65,9 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '宝宝', year: '1998', date: '10-03',
         },
+        {
+          type: '*生日', name: '小梅', year: '1998', date: '07-21',
+        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         // {
         //   type: '生日', name: '李四', year: '1996', date: '09-31',
@@ -75,7 +81,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2023-03-10' },
         // 结婚纪念日
-        // { keyword: 'marry_day', date: '2023-03-10' },
+        // { keyword: 'marry_day', date: '2023-03-11' },
       ],
     },
     
