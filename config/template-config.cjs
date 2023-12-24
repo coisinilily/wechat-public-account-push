@@ -5,9 +5,7 @@ const TEMPLATE_CONFIG = [
     title: '亲爱的, 中午好',
     desc: `
       **{{date.DATA}}**
-      
-      // 下个休息日：{{holidaytts.DATA}}
-      
+
       ---
       
       城市：{{city.DATA}}
